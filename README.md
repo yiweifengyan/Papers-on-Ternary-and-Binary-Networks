@@ -51,6 +51,7 @@ author = {Di Liu and Hao Kong and Xiangzhong Luo and Weichen Liu and Ravi Subram
 	pages = "107281",
 	year = "2020"
 }</code></pre></details>
+
 [[ArXiv 2021](https://arxiv.org/abs/2103.13630)] A Survey of Quantization Methods for Efficient Neural Network Inference
 
 <details><summary>Bibtex</summary><pre><code>@misc{gholami2021survey,
@@ -61,6 +62,7 @@ author = {Di Liu and Hao Kong and Xiangzhong Luo and Weichen Liu and Ravi Subram
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }</code></pre></details>
+
 [[ArXiv 2018](https://arxiv.org/abs/1808.04752)] A survey on methods and theories of quantized neural networks
 
 <details><summary>Bibtex</summary><pre><code>@article{Qsuvery_ArXiv_2018,
@@ -412,6 +414,7 @@ year = {2017}
   year={2016}
 }</code></pre></details>
 
+------
 
 
 ### INT8
@@ -444,6 +447,7 @@ year = {2017}
   year={2020}
 }</code></pre></details>
 
+------
 
 
 ### ImplementationAndAcceleration
