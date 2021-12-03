@@ -4,13 +4,13 @@ Papers and codes about Ternary and Binary Networks for easier survey and referen
 
 ## Table of Contents
 
-- [Survey Papers](#Survey_Papers)
-- [Papers](#Papers)
-	- [BNN](#BNN)
-	- [TNN](#TNN)
-	- [Mixed-Precision and General QNN](#Mixed-Precision and General QNN)
-	- [INT4 and INT8](#INT4 and INT8)
-	- [Implementation and Acceleration](#Implementation and Acceleration)
+- [Survey_Papers](#Survey_Papers)  
+- [Papers](#Papers)  
+	- [BNN](#BNN)  
+	- [TNN](#TNN)  
+	- [Mixed-Precision](#Mixed-Precision)  
+	- [INT8](#INT8)  
+	- [Implementation and Acceleration](#ImplementationAndAcceleration)  
 
 
 
@@ -70,6 +70,7 @@ author = {Di Liu and Hao Kong and Xiangzhong Luo and Weichen Liu and Ravi Subram
   year={2018}
 }</code></pre></details>
 
+------
 
 ## Papers
 
@@ -205,7 +206,7 @@ publisher = {Curran Associates, Inc.}
 }</code></pre></details>
 
 
-
+------
 
 ### TNN
 
@@ -281,9 +282,9 @@ year = {2018}
   year={2017}
 }</code></pre></details>
 
+------
 
-
-### Mixed-Precision and General QNN
+### Mixed-Precision
 
 [[Elec_2021](https://www.mdpi.com/2079-9292/10/8/886)] [__`mixed`__] Improving Model Capacity of Quantized Networks with Conditional Computation
 
@@ -413,7 +414,7 @@ year = {2017}
 
 
 
-### INT4 and INT8
+### INT8
 
 [[AAAI_2021](https://ojs.aaai.org/index.php/AAAI/article/view/16462)] [__`INT8+GPU`__] Distribution Adaptive INT8 Quantization for Training CNNs
 
@@ -445,7 +446,7 @@ year = {2017}
 
 
 
-### Implementation and Acceleration
+### ImplementationAndAcceleration
 
 [[ICPADS_2020](https://scholar.google.com/scholar?cluster=13318409564100224381&hl=zh-CN&as_sdt=0,5)] [__`CPU-BNN`__] XOR-Net: An Efficient Computation Pipeline for Binary Neural Network Inference on Edge Devices [[C++](https://github.com/yiweifengyan/XOR-Net)]
 
@@ -455,6 +456,7 @@ year = {2017}
   booktitle={The 26th IEEE International Conference on Parallel and Distributed Systems (ICPADS)},
   year={2020}
 }</code></pre></details>
+
 [[TVLSI_2020](https://arxiv.org/abs/1909.06892)] [__`IMC-TNN`__] TiM-DNN: Ternary In-Memory Accelerator for Deep Neural Networks
 
 <details><summary>Bibtex</summary><pre><code>@article{TiM-DNN_TVLSI_2020,
@@ -464,6 +466,7 @@ year = {2017}
   year={2020},
   publisher={IEEE}
 }</code></pre></details>
+
 [[MM_2019](https://arxiv.org/abs/1908.05858)] [__`CPU-BNN, ARM`__] daBNN: A Super Fast Inference Framework for Binary Neural Networks on ARM devices [[daBNN](https://github.com/JDAI-CV/dabnn)]
 
 <details><summary>Bibtex</summary><pre><code>@inproceedings{daBNN_MM_2019,
@@ -473,6 +476,7 @@ year = {2017}
   pages={2272--2275},
   year={2019}
 }</code></pre></details>
+
 [[IPDPS_2018](https://scholar.google.com.sg/scholar?cluster=13767699997921028631&hl=en&as_sdt=0,5)] [__`CPU-BNN`__] BitFlow: Exploiting vector parallelism for binary neural networks on CPU
 
 <details><summary>Bibtex</summary><pre><code>@inproceedings{BitFlow_2018_IPDPS,
@@ -504,7 +508,7 @@ year = {2017}
   HAL_VERSION = {v2},
 }</code></pre></details>
 
-[[FPL_2017]([Scalable High-Performance Architecture for Convolutional Ternary Neural Networks on FPGA - Archive ouverte HAL (archives-ouvertes.fr)](https://hal.archives-ouvertes.fr/hal-01563763))] [__`FPGA-TNN`__] Scalable High-Performance Architecture for Convolutional Ternary Neural Networks on FPGA [[FPGA](http://tima.imag.fr/sls/project/ternarynn/)]
+[[FPL_2017](https://hal.archives-ouvertes.fr/hal-01563763)] [__`FPGA-TNN`__] Scalable High-Performance Architecture for Convolutional Ternary Neural Networks on FPGA [[FPGA](http://tima.imag.fr/sls/project/ternarynn/)]
 
 <details><summary>Bibtex</summary><pre><code>
 @inproceedings{FPGA-TNN_FPL_2017,
